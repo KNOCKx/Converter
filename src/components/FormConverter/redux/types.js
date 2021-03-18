@@ -1,0 +1,3 @@
+export const GETCURRENCIES = 'GET_CURRENCIES'
+
+

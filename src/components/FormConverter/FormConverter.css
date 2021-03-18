@@ -1,0 +1,56 @@
+.form-converter{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+.form-converter button,
+.form-converter .MuiFormControl-root{
+    margin-bottom: 20px;
+}
+.form-converter p{
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    min-height: 23px;
+}
+.select_conv{
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.select_conv>div{
+    margin: 0 40px;
+}
+.arrow_custom {
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(#f50057,#f59857);
+    box-shadow: 0px 0px 0px 6px #fff, 0px 0px 10px 10px #e1e5e6;
+    position: absolute;
+    top: 11px;
+    left: 147px;
+    z-index: 2;
+}
+.arrow_custom:after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    top: 50%;
+    left: 50%;
+    margin: -12px 0 0 -17px;
+    transform: rotate(
+            -45deg
+    );
+}
+.selectLabel.MuiInputLabel-shrink{
+    transform: none;
+    position: relative;
+}
+.dn{
+    display: none!important;
+}
+
